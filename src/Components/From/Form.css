@@ -1,0 +1,83 @@
+.form {
+	background-color: white;
+	padding: 10px;
+	border: 2px solid #60a3bc;
+	border-radius: 15px;
+	width: calc(50% - 20px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 15px 15px 15px #0a3d62;
+}
+.form > legend {
+	font-size: 24px;
+	color: #0a3d62;
+}
+
+.form > button {
+	padding: 10px;
+	border: 2px solid #0a3d62;
+	color: #0a3d62;
+	border-radius: 5px;
+	background: none;
+	font-size: large;
+	font-weight: 700;
+	cursor: pointer;
+}
+.form > button:hover {
+	padding: 10px;
+	border: 2px solid #60a3bc;
+	color: white;
+	border-radius: 5px;
+	background: #60a3bc;
+}
+form {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+form > .first-section {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+form > .first-section > div {
+	width: calc(50% - 20px);
+	display: flex;
+	flex-direction: column;
+}
+input,
+select {
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px 0 5px;
+}
+form > fieldset {
+	margin: 15px 0 15px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+	width: calc(100% - 30px);
+	padding: 15px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 10px;
+}
+form > fieldset > div {
+	width: calc(50% - 20px);
+	display: flex;
+	flex-direction: column;
+}
+form > .second-section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+form > .second-section > select {
+	width: calc(25% - 10px);
+}
