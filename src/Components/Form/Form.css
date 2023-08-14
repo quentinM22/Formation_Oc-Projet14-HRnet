@@ -1,4 +1,5 @@
-.form {
+.form,
+.table {
 	background-color: white;
 	padding: 10px;
 	border: 2px solid #60a3bc;
@@ -10,7 +11,8 @@
 	justify-content: center;
 	box-shadow: 15px 15px 15px #0a3d62;
 }
-.form > legend {
+.form > legend,
+.table > legend {
 	font-size: 24px;
 	color: #0a3d62;
 }
@@ -52,9 +54,14 @@ form > .first-section > div {
 input,
 select {
 	border-radius: 5px;
-	border: 1px solid black;
+	border: 1px solid #b3b3b3;
 	padding: 5px;
 	margin: 5px 0 5px;
+}
+input:focus,
+select:focus {
+	border: 2px solid #2684ff;
+	outline: none;
 }
 form > fieldset {
 	margin: 15px 0 15px;
@@ -77,6 +84,7 @@ form > .second-section {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 25px;
 }
 form > .second-section > select {
 	width: calc(25% - 10px);

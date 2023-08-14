@@ -4,15 +4,12 @@ import './Header.css'
 const Header = () => {
   return (
     <header>
-      
+        <h1>HR<span>net</span></h1>
         {window.location.pathname === "/" ? (
-          <>
-          <h1>HR<span>net</span></h1>
           <nav>
              <NavLink to="/employee">
         View Current Employees <hr /></NavLink>
           </nav>
-          </>
        
         ) : (
         <nav>

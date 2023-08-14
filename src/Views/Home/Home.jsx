@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../Components/Header/Header'
-import Form from '../../Components/From/Form'
+import Form from '../../Components/Form/Form'
 
 import img1 from "../../Assets/hr_text1.png"
 
