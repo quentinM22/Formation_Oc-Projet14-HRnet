@@ -22,6 +22,7 @@ const EmployeeList = () => {
 		console.log(arrayAllEmployee);
 		setTableEmployee(arrayAllEmployee)
 		setAttributes(attributesFilter)
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [data, showMockData])
 
   return (
