@@ -26,3 +26,23 @@ main {
 	justify-content: center;
 	padding: 0 50px 0;
 }
+
+/* Error page */
+.error-main {
+	display: flex;
+	flex-direction: column;
+}
+.error-main > h2 {
+	color: red;
+	font-size: 46px;
+	margin: 10px 0 10px;
+}
+.error-main > a {
+	color: coral;
+	border-bottom: 1px solid coral;
+}
+.error-main > a:hover {
+	color: red;
+	border-bottom: 1px solid red;
+	cursor: pointer;
+}

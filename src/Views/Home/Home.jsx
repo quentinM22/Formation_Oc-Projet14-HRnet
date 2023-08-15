@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../../Components/Header/Header'
 import Form from '../../Components/Form/Form'
 
 import img1 from "../../Assets/hr_text1.png"
 
 const Home = () => {
+  useEffect(()=>{
+    document.title = "HRnet - Form"
+  })
   return (
     <>
     <Header title="HRnet"/>

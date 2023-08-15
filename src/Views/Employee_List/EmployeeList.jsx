@@ -5,6 +5,9 @@ import { useDispatch, useSelector } from 'react-redux'
 import { toggleMockData } from '../../RTK/Slice/dataSlice'
 
 const EmployeeList = () => {
+	useEffect(()=>{
+		document.title = "HRnet - List"
+	  })
 	// Global State
 	const {data} = useSelector((state)=> state.data)
 	const {showMockData} = useSelector((state)=> state.data)
