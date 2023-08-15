@@ -38,7 +38,6 @@ form {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
-	/* justify-content: space-between; */
 }
 form > .first-section {
 	width: 100%;
@@ -60,8 +59,8 @@ select {
 }
 input:focus,
 select:focus {
-	border: 2px solid #2684ff;
-	outline: none;
+	border: 1px solid #2684ff;
+	outline: 1px solid #2684ff;
 }
 form > fieldset {
 	margin: 15px 0 15px;
