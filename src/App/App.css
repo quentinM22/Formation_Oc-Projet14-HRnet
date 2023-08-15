@@ -7,9 +7,10 @@
 }
 body {
 	background-color: #ffffff;
+	margin: 0;
 }
 main {
-	margin: 25px 10px 25px;
+	margin: 25px 0px 25px;
 	width: calc(100% - 100px);
 	display: flex;
 	align-items: center;
