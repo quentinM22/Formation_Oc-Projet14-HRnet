@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# HRnet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+Formation OpenClassroom projet 14
 
-## Available Scripts
+L'objectif de ce projet est de refaire la page d'ajout et la liste des employé(e)s à l'aide de packages npm déjà créer et/ou en créant nos propres packages.
 
-In the project directory, you can run:
+Projet sur Netlify 
 
-### `npm start`
+Lien du projet: https://formation-oc-p14-hrnet.netlify.app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation Frontend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Suivre les instructions 
 
-### `npm test`
+#### 1- cloner le projet frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+ git clone https://github.com/quentinM22/Formation_Oc-Projet14-HRnet.git
+ cd Formation_Oc-Projet14-HRnet
+```
+#### 2- Installation des dépendances
+```bash
+  yarn
+  cd my-project
+```
+ou
 
-### `npm run build`
+```bash
+  npm i
+  cd my-project
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 4- Lancer le frontend
+```bash
+yarn start
+```
+ou
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
+## IDE et autres logiciels utilisé pour le projet
+* IDE: VSCode (Pour coder le projet)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Package Npm créé:
+    (Package créé avec TSDX : https://tsdx.io/)
+    * github: https://github.com/quentinM22/npm_Modal-cmp-react 
+        npm: https://www.npmjs.com/package/@quentinm22/modal-cmp-react  
+    * github: https://github.com/quentinM22/npm_DatePicker-cmp-react 
+        npm: https://www.npmjs.com/package/@quentinm22/datepicker-react-cmp 
+    * github: https://github.com/quentinM22/npm_Table-cmp-react 
+        npm: https://www.npmjs.com/package/@quentinm22/table-cmp-react
 
-### `npm run eject`
+* Package Npm utilisé:
+    * github: https://github.com/JedWatson/react-select/tree/master#readme 
+        npm: https://www.npmjs.com/package/react-select
+    version: 5.7.4
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dépendances
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Name              | Version |  
+| ----------------- | ------- |
+| node              | v18.15.0|
+| yarn               | 1.22.19  |
+| react             | 18.2.0  |
+| react-dom         | 18.2.0  |
+| react-router-dom  | 6.14.2  |
+| react-scripts     | 5.0.1   |
+| @reduxjs/toolkit          | 1.9.5   |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Documentations utilisées
 
-## Learn More
+* TSDX: https://tsdx.io/
+* TypeScripts: https://www.typescriptlang.org/
+* React: https://fr.legacy.reactjs.org/
+* React-router: https://reactrouter.com/en/main
+* ReduxToolkit: https://redux-toolkit.js.org/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Auteur
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [@quentinM22](https://github.com/quentinM22/)
