@@ -19,6 +19,7 @@ const Form = () => {
 	const [error, setError] = useState(false)
 
 	const bgColor = ["10", "61", "97", "0.5"]
+	
 	useEffect(() => {
 		const maxBirthdate = () => {
 			let date = new Date()
@@ -38,6 +39,10 @@ const Form = () => {
 		}
 		maxBirthdate()
 	})
+	/**
+	 * Submit Form
+	 * @param {Event} e 
+	 */
 	const handleSubmit = (e) => {
 		e.preventDefault()
 		const employee = {

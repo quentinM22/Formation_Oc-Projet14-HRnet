@@ -22,7 +22,6 @@ const EmployeeList = () => {
 		let attributesFilter = ["firstName", "lastName"]
 		showMockData && (data.map((data) => arrayAllEmployee.push(data)))
 		newEmployee.length >= 1 && newEmployee.map((employee)=> arrayAllEmployee.push(employee))
-		console.log(arrayAllEmployee);
 		setTableEmployee(arrayAllEmployee)
 		setAttributes(attributesFilter)
 	// eslint-disable-next-line react-hooks/exhaustive-deps

@@ -13,6 +13,7 @@ const Home = () => {
     <Header title="HRnet"/>
     <main>
         <div 
+        className='image'
         style={{
           backgroundImage: `url(${img1})`,
           backgroundRepeat: "no-repeat",

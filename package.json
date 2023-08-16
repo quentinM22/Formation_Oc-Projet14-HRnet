@@ -5,7 +5,7 @@
 	"dependencies": {
 		"@quentinm22/datepicker-react-cmp": "^1.1.6",
 		"@quentinm22/modal-cmp-react": "^0.1.13",
-		"@quentinm22/table-cmp-react": "^1.0.0",
+		"@quentinm22/table-cmp-react": "^1.0.12",
 		"@reduxjs/toolkit": "^1.9.5",
 		"@testing-library/jest-dom": "^5.17.0",
 		"@testing-library/react": "^13.4.0",
