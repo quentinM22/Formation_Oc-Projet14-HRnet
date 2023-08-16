@@ -1801,10 +1801,10 @@
   resolved "https://registry.npmjs.org/@quentinm22/modal-cmp-react/-/modal-cmp-react-0.1.13.tgz"
   integrity sha512-Ro7d/FtymSdnU3JOIAt3FPk9cmhEYjwH27xzOqmxgQOM4aygH5yZSfXdQw9v563X62lHCi9R7cmvjOuZYNSptw==
 
-"@quentinm22/table-cmp-react@^1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@quentinm22/table-cmp-react/-/table-cmp-react-1.0.18.tgz#0e3a52c73a4c01f82d07472a0e123e6c86e7cdfc"
-  integrity sha512-oDB0DTnPggAuJIwO0GtCWbI8jEPFDaAqQC7nD1OvELQPMGg1kMJEMpjrSbW9TMnsUy3UNKdQx5mUONpNBa7/Yw==
+"@quentinm22/table-cmp-react@^1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@quentinm22/table-cmp-react/-/table-cmp-react-1.0.19.tgz#879dc31aeb581db83e7d0edd1d31bb40f7b9d9bf"
+  integrity sha512-DpQtdsX5omPOfCOEnbxyCry6xBbYg0R/QzBD6zfsjXcgi5r4Un4ZsEO0wzfMtnjRdcyZN5BVKpzKV+zVvq7zdw==
 
 "@reduxjs/toolkit@^1.9.5":
   version "1.9.5"
