@@ -1791,20 +1791,20 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@quentinm22/datepicker-react-cmp@^1.1.6":
-  version "1.1.6"
-  resolved "https://registry.npmjs.org/@quentinm22/datepicker-react-cmp/-/datepicker-react-cmp-1.1.6.tgz"
-  integrity sha512-AWDASSC4P3q7H8PE2wrIu59imoMd2lxwZNsim49uo+3e3g5XBwhh99UuwyLGSmGvn2L/EdYVFN5r3sMXrAt/FQ==
+"@quentinm22/datepicker-react-cmp@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@quentinm22/datepicker-react-cmp/-/datepicker-react-cmp-1.2.0.tgz#6d4bc081283ec7fbd010f5dfbd1492071173b5f5"
+  integrity sha512-R+9cF7aRr7p+Yh/y0CQaERmHv1+0piXFxZs0cMfH3/3ajfiPa7DM0FulP8/aZawu7t/uAxFRiNOO/POY2IdkkQ==
 
-"@quentinm22/modal-cmp-react@^0.1.13":
-  version "0.1.13"
-  resolved "https://registry.npmjs.org/@quentinm22/modal-cmp-react/-/modal-cmp-react-0.1.13.tgz"
-  integrity sha512-Ro7d/FtymSdnU3JOIAt3FPk9cmhEYjwH27xzOqmxgQOM4aygH5yZSfXdQw9v563X62lHCi9R7cmvjOuZYNSptw==
+"@quentinm22/modal-cmp-react@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@quentinm22/modal-cmp-react/-/modal-cmp-react-1.0.0.tgz#e78ee71ba4128a88a3eb01746f5364ab3d13d815"
+  integrity sha512-T5fcRiGzF6mM7zfbUEFlVhJt7+1xBSAoW8U6QP0Uf8gNj1XpiCOUnQS3Q8iPkud5pDNdq7PWeujie2PrxWdKKQ==
 
-"@quentinm22/table-cmp-react@^1.0.24":
-  version "1.0.24"
-  resolved "https://registry.yarnpkg.com/@quentinm22/table-cmp-react/-/table-cmp-react-1.0.24.tgz#9c075dc14f9da1a3a1d673f5e5df1cce75924caf"
-  integrity sha512-o2OeNzRTvuF8wL2jJnZk2iyskbVJSU78j+vbbAFhQoC0GwGLz9iqDog7lsSyN5E7+bsVQAh5nmOT0x077W17ww==
+"@quentinm22/table-cmp-react@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@quentinm22/table-cmp-react/-/table-cmp-react-1.1.0.tgz#834a64842515fe00b8b254c0f7202361472ed867"
+  integrity sha512-V5jEMifkyOFNamRmLzaLuwBqfFeafs+SWARZBO8miEvQXrnsnS2aCOD1eapJeGS0m2TEpWjnX4WZop3sah7fdw==
 
 "@reduxjs/toolkit@^1.9.5":
   version "1.9.5"
