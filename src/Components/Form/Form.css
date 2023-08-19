@@ -88,3 +88,11 @@ form > .second-section {
 form > .second-section > select {
 	width: calc(25% - 10px);
 }
+.error-message{
+	width: 100%;
+	text-align: center;
+	color: red;
+	margin-bottom: 5px;
+}.error-input{
+	border: 1px solid red;
+}

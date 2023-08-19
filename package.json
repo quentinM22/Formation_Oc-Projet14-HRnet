@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"@quentinm22/datepicker-react-cmp": "^1.2.0",
+		"@quentinm22/datepicker-react-cmp": "^1.2.2",
 		"@quentinm22/modal-cmp-react": "^1.0.0",
 		"@quentinm22/table-cmp-react": "^1.1.0",
 		"@reduxjs/toolkit": "^1.9.5",

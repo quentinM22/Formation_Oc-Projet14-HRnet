@@ -3,10 +3,13 @@
  
 Formation OpenClassroom projet 14
 
-L'objectif de ce projet est de refaire la page d'ajout et la liste des employé(e)s à l'aide de packages npm déjà créer et/ou en créant nos propres packages.
+L'objectif de ce projet est de refaire la page d'ajout et la liste des employé(e)s initialement en JQuery vers React à l'aide de packages npm déjà créer et/ou en créant nos propres packages.
+Ensuite.
+Tester et comparer les apps JQuery et l'app. React via google Lighthouse.
+Pour finir.
+Création de la documentation technique du projet.
 
 Projet sur Netlify 
-
 Lien du projet: https://formation-oc-p14-hrnet.netlify.app
 
 ## Installation Frontend
