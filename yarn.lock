@@ -1784,10 +1784,10 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@quentinm22/datepicker-react-cmp@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@quentinm22/datepicker-react-cmp/-/datepicker-react-cmp-1.2.3.tgz#cbf82078b35d8396a9f12ae3b2161057413c4312"
-  integrity sha512-/4oLHZ3/XSfAVa8mftz1b/buHIVMEbeAveGzaHGMA949qZwaHvlTzSRKtok8uGDpTgetzhS3LyWpCTYcadZcgg==
+"@quentinm22/datepicker-react-cmp@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@quentinm22/datepicker-react-cmp/-/datepicker-react-cmp-1.2.4.tgz#671ce5e95039f5635606e8e49063da04ef54b5e8"
+  integrity sha512-9s2o7GqTaBi4oDH6bCxNFIIfrdim8V/4ZvOwViUz4KtFKQtSvPnI7as22ECI9Z6/tbGP1X04izglHspXkm5Vww==
 
 "@quentinm22/modal-cmp-react@^1.0.1":
   version "1.0.1"
