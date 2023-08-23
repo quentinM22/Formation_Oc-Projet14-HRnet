@@ -33,7 +33,7 @@ const EmployeeList = () => {
     <main className='table-container'>
       <div>
       <label htmlFor='mockData'>MockData</label>
-	  {showMockData ? (<input id="mockData" type="checkbox" onChange={() => { dispatch(toggleMockData())}} checked />):(<input id="mockData" type="checkbox" onChange={() => { dispatch(toggleMockData())}} />)}
+	  {showMockData ? (<input id="mockData" type="checkbox" onChange={() => { dispatch(toggleMockData())}}/>):(<input id="mockData" type="checkbox" onChange={() => { dispatch(toggleMockData())}} />)}
 			
       </div>
 			
