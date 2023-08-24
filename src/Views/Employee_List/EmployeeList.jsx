@@ -3,7 +3,10 @@ import Header from '../../Components/Header/Header'
 import {Table} from '@quentinm22/table-cmp-react'
 import { useDispatch, useSelector } from 'react-redux'
 import { toggleMockData } from '../../RTK/Slice/dataSlice'
-
+/**
+ * Employee List - View 
+ * @returns {JSX.Element} - EmployeeList View JSX element.
+ */
 const EmployeeList = () => {
 	useEffect(()=>{
 		document.title = "HRnet - List"

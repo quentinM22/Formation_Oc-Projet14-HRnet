@@ -9,6 +9,11 @@ import Select from "react-select"
 import { useDispatch } from "react-redux"
 import { addEmployee } from "../../RTK/Slice/dataSlice"
 
+/**
+ * Form - Component - Form add Employee
+ * @returns {JSX.Element} - Form component JSX element.
+ */
+
 const Form = () => {
 	const dispatch = useDispatch()
 

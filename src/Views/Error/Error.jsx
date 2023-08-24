@@ -2,7 +2,10 @@ import React from 'react'
 import Header from '../../Components/Header/Header'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-
+/**
+ * Error - View 
+ * @returns {JSX.Element} - Error View JSX element.
+ */
 const Error = () => {
   useEffect(()=>{
     document.title = "HRnet - Error"
