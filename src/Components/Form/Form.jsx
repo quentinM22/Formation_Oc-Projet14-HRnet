@@ -214,6 +214,8 @@ const Form = () => {
 						<div>
 							<label htmlFor="state">State</label>
 							<Select onChange={setState} options={statesData} 
+							id="state"
+							aria-labelledby="state"
 							styles={{
 								control: (provided) => ({
 								  ...provided,
@@ -235,6 +237,8 @@ const Form = () => {
 					<div className="second-section">
 						<label htmlFor="department">Department</label>
 						<Select onChange={setDepartment} options={departmentData}
+							id="department"
+							aria-labelledby="department"
 							styles={{
 								control: (provided, state) => ({
 								  ...provided,

@@ -2,15 +2,17 @@ import React, { useEffect } from 'react'
 import Header from '../../Components/Header/Header'
 import Form from '../../Components/Form/Form'
 
-import img1 from "../../Assets/hr_text1.png"
+import img1 from "../../Assets/hr_text1.webp"
 /**
  * Home - View 
  * @returns {JSX.Element} - Home View JSX element.
  */
 const Home = () => {
+  
   useEffect(()=>{
     document.title = "HRnet - Form"
-  })
+  
+  },[])
   return (
     <>
     <Header title="HRnet"/>
