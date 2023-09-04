@@ -4,10 +4,11 @@ import "./Form.css"
 import statesData from "../../data/state.json"
 import departmentData from "../../data/department.json"
 import { DatePicker } from "@quentinm22/datepicker-react-cmp"
-import { Modal } from "@quentinm22/modal-cmp-react"
+// import { Modal } from "@quentinm22/modal-cmp-react"
 import Select from "react-select"
 import { useDispatch } from "react-redux"
 import { addEmployee } from "../../RTK/Slice/dataSlice"
+import Modal from "../Modal/Modal"
 
 /**
  * Form - Component - Form add Employee
@@ -43,7 +44,7 @@ const Form = () => {
 		zipCode: "",
 	})
 
-	const bgColor = ["10", "61", "97", "0.5"]
+	// const bgColor = ["10", "61", "97", "0.5"]
 	
 	useEffect(() => {
 		const maxBirthdate = () => {
@@ -256,11 +257,6 @@ const Form = () => {
 				<Modal
 					toggle={toggle}
 					onClose={() => setToggle(false)}
-					backgroundColor={bgColor}
-					border="green"
-					title="Validation"
-					content="Employee Created!"
-					width={50}
 				/>
 			}
 		</>
