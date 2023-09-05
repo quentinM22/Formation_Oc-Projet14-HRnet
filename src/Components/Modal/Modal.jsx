@@ -4,7 +4,7 @@ import "./Modal.css"
 const Modal = ({onClose, toggle}) => {
   return (
     toggle && (
-    <div className='modal-container'>
+    <div className='modal-container' onClick={()=> onClose()}>
     <div
     className="modal show"
   >
@@ -13,7 +13,7 @@ const Modal = ({onClose, toggle}) => {
         <ModalHeader>
            
                 <ModalTitle>Validation</ModalTitle>
-                          <Button onClick={() => onClose()}>X</Button>
+                          <Button onClick={() => onClose()}>&#10799;</Button>
             </ModalHeader>
 
        
