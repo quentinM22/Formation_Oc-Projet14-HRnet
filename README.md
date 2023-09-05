@@ -48,17 +48,23 @@ npm start
 
 * Package Npm créé:
     (Package créé avec TSDX : https://tsdx.io/)
-    * github: https://github.com/quentinM22/npm_Modal-cmp-react 
-        npm: https://www.npmjs.com/package/@quentinm22/modal-cmp-react  
-    * github: https://github.com/quentinM22/npm_DatePicker-cmp-react 
-        npm: https://www.npmjs.com/package/@quentinm22/datepicker-react-cmp 
     * github: https://github.com/quentinM22/npm_Table-cmp-react 
         npm: https://www.npmjs.com/package/@quentinm22/table-cmp-react
 
 * Package Npm utilisé:
-    * github: https://github.com/JedWatson/react-select/tree/master#readme 
-        npm: https://www.npmjs.com/package/react-select
+    * React-Select
+        * github: https://github.com/JedWatson/react-select/tree/master#readme 
+            npm: https://www.npmjs.com/package/react-select
     version: 5.7.4
+    * React-Datepicker
+        * github: https://github.com/Hacker0x01/react-datepicker
+            npm: https://www.npmjs.com/package/react-datepicker
+    version: 4.16.0
+
+* Bibliothèque UI utilisé: (utilisé pour le modal)
+    * react-bootstrap: https://react-bootstrap.netlify.app/ 
+        npm: https://www.npmjs.com/package/react-bootstrap
+    version: 2.8.0
 
 ## Dépendances
 
