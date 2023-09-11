@@ -3,7 +3,6 @@ import "./Form.css";
 
 import statesData from "../../data/state.json";
 import departmentData from "../../data/department.json";
-// import { DatePicker } from "@quentinm22/datepicker-react-cmp"
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -44,30 +43,32 @@ const Form = () => {
     zipCode: "",
   });
 
-
-
   /**
-   * Submit Form
+   * Form Submit management
    * @param {Event} e
    */
   const handleSubmit = (e) => {
     e.preventDefault();
-	const formatDate = (date) => {
-		if (!date) return "";
-		let day = date.getDate();
-		let month = date.getMonth() +1;
-		let year = date.getUTCFullYear();
-		//condition day 1 à 9 => 01 à 09
-		if (day < 10) {
-		  day = '0' + day;
-		} 
-		//condition month 1 à 9 => 01 à 09
-		if (month < 10) {
-		  month = '0' + month;
-		}
-		return `${day}/${month}/${year}`;
-	  };
-
+    /**
+     * Format date
+     * @param {Data} date a formater 
+     * @returns {string} format date "JJ/MM/AAAA"
+     */
+    const formatDate = (date) => {
+      if (!date) return "";
+      let day = date.getDate();
+      let month = date.getMonth() + 1;
+      let year = date.getUTCFullYear();
+      //condition day 1 à 9 => 01 à 09
+      if (day < 10) {
+        day = "0" + day;
+      }
+      //condition month 1 à 9 => 01 à 09
+      if (month < 10) {
+        month = "0" + month;
+      }
+      return `${day}/${month}/${year}`;
+    };
     const formData = {
       firstName: firstName,
       lastName: lastName,
@@ -79,7 +80,6 @@ const Form = () => {
       state: state ? state.value : "",
       zipCode: zipCode,
     };
-	console.log(formData);
     const formErrors = {
       firstName: formData.firstName === "" ? "First name is required" : "",
       lastName: formData.lastName === "" ? "Last name is required" : "",
@@ -92,7 +92,9 @@ const Form = () => {
       state: !formData.state ? "State of birth is required" : "",
       zipCode: formData.zipCode === "" ? "Zip code is required" : "",
     };
-
+    /**
+     * Refresh fields form
+     */
     const refresh = () => {
       setErrors({
         firstName: "",
@@ -129,6 +131,12 @@ const Form = () => {
       setErrors(formErrors);
     }
   };
+  /**
+   * Validation form
+   * @param {Object} formData 
+   * @param {Object} formErrors 
+   * @returns {Boolean} isValid true or false
+   */
   const validateForm = (formData, formErrors) => {
     const requiredFields = [
       "firstName",
@@ -143,6 +151,7 @@ const Form = () => {
     ];
 
     let isValid = true;
+    // Regex 5 number
     const validZipCode = /^\d{5}$/.test(formData.zipCode);
 
     requiredFields.forEach((field) => {
@@ -215,22 +224,25 @@ const Form = () => {
 
             <div>
               <label htmlFor="date-of-birth">Date of Birth</label>
-			  
-              {errors.startDate ? (<DatePicker
-			  id="date-of-birth"
-                selected={dateOfBirth}
-                onChange={(date) => setdateOfBirth(date)}
-				maxDate={new Date()}
-				dateFormat="dd/MM/yyyy"
-				className="error-input"
-              />):(<DatePicker
-			  id="date-of-birth"
-                selected={dateOfBirth}
-                onChange={(date) => setdateOfBirth(date)}
-				maxDate={new Date()}
-				dateFormat="dd/MM/yyyy"
 
-              />)}
+              {errors.startDate ? (
+                <DatePicker
+                  id="date-of-birth"
+                  selected={dateOfBirth}
+                  onChange={(date) => setdateOfBirth(date)}
+                  maxDate={new Date()}
+                  dateFormat="dd/MM/yyyy"
+                  className="error-input"
+                />
+              ) : (
+                <DatePicker
+                  id="date-of-birth"
+                  selected={dateOfBirth}
+                  onChange={(date) => setdateOfBirth(date)}
+                  maxDate={new Date()}
+                  dateFormat="dd/MM/yyyy"
+                />
+              )}
               {errors.dateOfBirth && (
                 <small className="error-message">{errors.dateOfBirth}</small>
               )}
@@ -238,23 +250,26 @@ const Form = () => {
 
             <div>
               <label htmlFor="start-date">Start Date</label>
-              {errors.startDate ? (<DatePicker
-			  	id="start-date"
-                selected={startDate}
-                onChange={(date) => setStartDate(date)}
-				dateFormat="dd/MM/yyyy"
-				className="error-input"
-              />):(<DatePicker
-				id="start-date"
-                selected={startDate}
-                onChange={(date) => setStartDate(date)}
-				dateFormat="dd/MM/yyyy"
-              />)}
+              {errors.startDate ? (
+                <DatePicker
+                  id="start-date"
+                  selected={startDate}
+                  onChange={(date) => setStartDate(date)}
+                  dateFormat="dd/MM/yyyy"
+                  className="error-input"
+                />
+              ) : (
+                <DatePicker
+                  id="start-date"
+                  selected={startDate}
+                  onChange={(date) => setStartDate(date)}
+                  dateFormat="dd/MM/yyyy"
+                />
+              )}
               {errors.startDate && (
                 <small className="error-message">{errors.startDate}</small>
               )}
             </div>
-			
           </div>
 
           <fieldset className="address">
@@ -316,7 +331,7 @@ const Form = () => {
                     ...provided,
                     border: errors.state
                       ? "1px solid red"
-                      : "1px solid #ced4da", // Changez les couleurs selon vos besoins
+                      : "1px solid #ced4da",
                   }),
                 }}
                 value={state}
@@ -361,7 +376,7 @@ const Form = () => {
                   ...provided,
                   border: errors.department
                     ? "1px solid red"
-                    : "1px solid #ced4da", // Changez les couleurs selon vos besoins
+                    : "1px solid #ced4da",
                 }),
               }}
               value={department}
